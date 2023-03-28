@@ -1,0 +1,244 @@
+@font-face {
+  font-family: "SpoqaHanSansNeo-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "SpoqaHanSansNeo-Regular";
+}
+
+body,
+h1,
+h2,
+p,
+button,
+input,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.a11y-hidden {
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+}
+
+.container {
+  width: 520px;
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  border-radius: 10px;
+}
+
+header {
+  height: 61px;
+  border-bottom: 1px solid #c4c4c4;
+  position: relative;
+}
+
+header h1 {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 20px 188px 18px;
+}
+
+main {
+  padding: 26px 24px 25px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+.input-id,
+.input-pw {
+  width: 472px;
+  height: 50px;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding-left: 16px;
+  font-size: 16px;
+}
+
+.input-id:focus,
+.input-pw:focus {
+  border: 2px solid #c4c4c4;
+  outline: none;
+}
+
+.warning {
+  box-shadow: 0 0 0 2px #f4492e;
+}
+
+.id-warning {
+  font-size: 14px;
+  font-weight: 400;
+  color: #f4492e;
+  margin: 6px 0 10px 0;
+}
+
+.login-check {
+  appearance: none;
+  width: 22px;
+  height: 22px;
+  background-color: red;
+  /* margin: 16px 8px 0 0; */
+  vertical-align: middle;
+  background: url(./img/check-box.svg) no-repeat center / 90%;
+}
+
+.login-check:checked {
+  background: url(./img/check-box-checked.svg) no-repeat center / 90%;
+}
+
+.login-check-container {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+  align-items: center;
+}
+
+.login-check-container label {
+  color: #767676;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn-login {
+  width: 472px;
+  background: #2f80ed;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+  margin-top: 21px;
+  padding: 12.5px 0;
+}
+
+.join-find-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.join,
+.id-pw-find {
+  font-size: 14px;
+  font-weight: 400;
+  color: #767676;
+}
+
+.join::after {
+  content: " ";
+  display: inline-block;
+  height: 15px;
+  width: 1.5px;
+  background-color: #767676;
+  vertical-align: middle;
+  margin: 0 12px;
+}
+
+.or-login {
+  display: block;
+  font-weight: 400;
+  font-size: 14px;
+  color: #767676;
+  text-align: center;
+  margin: 30px 0px 20px;
+}
+
+.or-login::before {
+  display: inline-block;
+  content: "";
+  width: 210px;
+  height: 1px;
+  background: #c4c4c4;
+  vertical-align: middle;
+  margin-right: 13px;
+}
+
+.or-login::after {
+  display: inline-block;
+  content: "";
+  width: 210px;
+  height: 1px;
+  background: #c4c4c4;
+  vertical-align: middle;
+  margin-left: 13px;
+}
+
+.btn-sns {
+  width: 472px;
+  height: 50px;
+  border: 1px solid #767676;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+li:not(:nth-child(4)) {
+  margin-bottom: 10px;
+}
+
+.google {
+  background: url(./img/Google__G__Logo\ 1.svg) no-repeat 12px center / 28px;
+  border: 1px solid #767676;
+  border-radius: 5px;
+}
+
+.facebook {
+  background: url(./img/facebook.svg) no-repeat 12px center / 28px;
+  border: 1px solid #3d9cdb;
+  border-radius: 5px;
+}
+
+.naver {
+  background: url(./img/naver-logo.svg) no-repeat 12px center / 28px;
+  border: 1px solid #00bf18;
+  border-radius: 5px;
+}
+
+.kakao {
+  background: url(./img/message-circle.svg) no-repeat 12px center / 28px;
+  border: 1px solid #f2c94c;
+  border-radius: 5px;
+}
+
+.btn-close {
+  position: absolute;
+  top: 23px;
+  left: 480px;
+}
+
+.btn-close img {
+  width: 16px;
+}
