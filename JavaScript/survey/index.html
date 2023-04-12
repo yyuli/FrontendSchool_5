@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form id="mainForm">
+        <fieldset>
+            <legend>JS 스터디 모집</legend>
+            <progress max="100" value="0" class="progress-bar"></progress>
+            <p class="msg-notice">설문지를 작성해 주세요.</p>
+            <label for="q1">1. 무엇을 가장 배우고 싶으신가요?</label>
+            <input type="text" id="q1" required>
+            <label for="q2">2. 원하는 시간대를 적어주세요.</label>
+            <input type="text" id="q2" required>
+            <label for="q3">3. 본인이 생각하는 적정한 소요시간을 알려주세요.</label>
+            <input type="text" id="q3" required>
+            <label for="q4">4. 원하는 난이도를 알려주세요.</label>
+            <input type="text" id="q4" required>
+            <label for="q5">5. 자유롭게 하고 싶은 말을 남겨주세요.</label>
+            <input type="text" id="q5" required>
+            <button type="submit">제출</button>
+            <button type="reset">초기화</button>
+        </fieldset>
+    </form>
+    <script src="main.js"></script>
+</body>
+
+</html>

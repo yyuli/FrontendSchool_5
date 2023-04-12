@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+body,
+button {
+  font-family: "Pretendard-Regular";
+}
+
+p,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+p {
+  margin: 16px 0;
+}
+
+#mainForm {
+  width: 460px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#mainForm progress {
+  width: 100%;
+  margin-top: 12px;
+  appearance: none;
+}
+
+#mainForm progress::-webkit-progress-bar {
+  background: #f0f0f0;
+  border-radius: 10px;
+  height: 12px;
+  /* box-shadow: inset 3px 3px 10px #ccc; */
+}
+
+#mainForm progress::-webkit-progress-value {
+  border-radius: 10px;
+  background: grey;
+}
+
+#mainForm label {
+  display: block;
+  margin-bottom: 6px;
+}
+
+#mainForm input {
+  display: block;
+  width: 94%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#mainForm input:valid {
+  background-color: #eee;
+}
+
+#mainForm button {
+  border: 1px solid gray;
+  border-radius: 6px;
+  background-color: #fff;
+  padding: 10px 16px;
+  float: right;
+  margin: 10px 0 10px 12px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  cursor: pointer;
+}
