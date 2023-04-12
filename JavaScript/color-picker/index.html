@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ColorPicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form>
+        <div class="inp-container">
+            <label for="inp-bg">Background</label>
+            <input id="inp-bg" type="color" value="#ff691f" class="inp-picker" data-id="bgColor">
+        </div>
+        <div class="inp-container">
+            <label for="inp-text" class="label-text">Text</label>
+            <input id="inp-text" type="color" class="inp-picker" data-id="txtColor">
+        </div>
+    </form>
+    <article class="card-container">
+        <p class="icon-bg">🦁</p>
+        <p class="text">#FF691F</p>
+    </article>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
