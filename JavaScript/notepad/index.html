@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1 class="memo-header">MEMO</h1>
+  <form class="user-input">
+    <label for="memo-title" class="a11y-hidden">제목</label>
+    <input id="memo-title" type="text" placeholder="제목">
+    <textarea name="content" cols="40" rows="8" class="memo-contents" placeholder="내용을 입력하세요."></textarea>
+    <button type="button" class="btn-complete">완료</button>
+  </form>
+  <section id="display">
+  </section>
+  <script src="main.js"></script>
+</body>
+</html>
