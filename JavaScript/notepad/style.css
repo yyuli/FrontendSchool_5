@@ -116,6 +116,10 @@ button:hover {
   box-sizing: border-box;
 }
 
+.memo-list :nth-child(1) {
+  min-height: 29px;
+}
+
 .memo-list :nth-child(2) {
   margin: 16px 0;
   line-height: 24px;
